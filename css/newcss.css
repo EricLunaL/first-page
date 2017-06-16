@@ -1,0 +1,661 @@
+
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Jaldi|Port+Lligat+Slab');
+@import url('https://fonts.googleapis.com/css?family=Crafty+Girls');
+@import url('https://fonts.googleapis.com/css?family=Graduate');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+#fixnav{
+    position: fixed;
+    height: 98px;
+    width: 100%;
+    margin-top: -99px;
+    margin-left: -8px;   
+    background: -moz-linear-gradient(top, rgba(92,201,103,0) 0%, rgba(92,201,103,0.8) 29%, rgba(92,201,103,0.83) 32%, rgba(32,201,97,1) 49%, rgba(28,201,97,1) 50%, rgba(51,193,108,1) 61%, rgba(77,184,121,0.8) 73%, rgba(92,178,128,0.59) 80%, rgba(92,178,128,0) 100%);
+    background: -webkit-linear-gradient(top, rgba(92,201,103,0) 0%,rgba(92,201,103,0.8) 29%,rgba(92,201,103,0.83) 32%,rgba(32,201,97,1) 49%,rgba(28,201,97,1) 50%,rgba(51,193,108,1) 61%,rgba(77,184,121,0.8) 73%,rgba(92,178,128,0.59) 80%,rgba(92,178,128,0) 100%);
+    background: linear-gradient(to bottom, rgba(92,201,103,0) 0%,rgba(92,201,103,0.8) 29%,rgba(92,201,103,0.83) 32%,rgba(32,201,97,1) 49%,rgba(28,201,97,1) 50%,rgba(51,193,108,1) 61%,rgba(77,184,121,0.8) 73%,rgba(92,178,128,0.59) 80%,rgba(92,178,128,0) 100%);
+   
+}
+#fixnavupc{
+    position: fixed;
+    height: 98px;
+    width: 100%;   
+    background: -moz-linear-gradient(top, rgba(92,201,103,0) 0%, rgba(92,201,103,0.8) 29%, rgba(92,201,103,0.83) 32%, rgba(32,201,97,1) 49%, rgba(28,201,97,1) 50%, rgba(51,193,108,1) 61%, rgba(77,184,121,0.8) 73%, rgba(92,178,128,0.59) 80%, rgba(92,178,128,0) 100%);
+    background: -webkit-linear-gradient(top, rgba(92,201,103,0) 0%,rgba(92,201,103,0.8) 29%,rgba(92,201,103,0.83) 32%,rgba(32,201,97,1) 49%,rgba(28,201,97,1) 50%,rgba(51,193,108,1) 61%,rgba(77,184,121,0.8) 73%,rgba(92,178,128,0.59) 80%,rgba(92,178,128,0) 100%);
+    background: linear-gradient(to bottom, rgba(92,201,103,0) 0%,rgba(92,201,103,0.8) 29%,rgba(92,201,103,0.83) 32%,rgba(32,201,97,1) 49%,rgba(28,201,97,1) 50%,rgba(51,193,108,1) 61%,rgba(77,184,121,0.8) 73%,rgba(92,178,128,0.59) 80%,rgba(92,178,128,0) 100%);    
+    z-index: 9;
+    top:0;
+    margin-left: -8px;
+}
+.navdisp{
+    display: block;
+}
+h1{
+    font-family: 'Graduate', cursive;
+    color: white;
+    font-size: 34pt;
+    text-align: center;
+    margin-top: 17px;
+}
+nav{
+    margin-left: -53px;
+    margin-top: -23px;
+}
+.linav{
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    background-color: rgba(15,49,77,1);
+    border-style: outset;
+    width: 83px;
+    display: inline;
+    margin: 3px;
+    font-size: 16pt;
+    padding: 1px 19px;
+    border-color: rgba(5,255,18,1);
+    z-index: 5;
+}
+.linav:hover{
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    background-color: rgba(5,255,18,1);
+    border-style: inset;
+    border-color:rgba(15,49,77,1); 
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Crafty Girls', cursive;
+    font-weight: bold;
+}
+#logo1{
+    margin-top: -133px;
+    margin-left: -1131px;
+}
+#logo2{
+    margin-top: -103px;
+    margin-left: 1133px;
+}
+.imglogo{
+    width: 100px;
+    height: 100px;
+}
+body {
+    text-align: center;
+    background-image: url(../images/campodefutbol.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+}
+/*Carrusel*/
+input[name="slider-select-element"] {
+    display: none;
+}
+#slider-arrows {
+    margin: -10% auto 0 auto;
+    width: 80%;
+}
+#slider-box {
+    height: 100%;
+    width: 300%;
+}
+#slider-container {
+    height: 20%;
+    margin: 100px auto;
+    overflow: hidden;
+    text-align: left;
+    width: 80%;
+}
+.element-blue,
+.element-green,
+.element-red {
+    min-height: 400px;
+    max-height: 100%;
+    width: 100%;
+}
+.element-blue {
+    background-image: url(../images/design1_image1.jpg);
+    background-repeat: no-repeat;
+    margin-left: 120px;
+    margin-top: 90px;
+}
+.element-green {
+    background-image:url(../images/design2_image1.jpg) ;
+    background-repeat: no-repeat;
+    margin-left: 130px;
+    margin-top: 90px;
+}
+.element-red {
+    background-image:url(../images/nysl_logo.png)  ;
+    background-repeat: no-repeat;
+    margin-left: 370px;
+    margin-top: 90px;
+}
+.slider-element {
+    float: left;
+    width: 33.333%;
+}
+#element1:checked ~ #slider-arrows label:nth-child(2),
+#element2:checked ~ #slider-arrows label:nth-child(3),
+#element3:checked ~ #slider-arrows label:nth-child(1) {
+    display: block;
+    float: right;
+}
+#element1:checked ~ #slider-arrows label:nth-child(3),
+#element2:checked ~ #slider-arrows label:nth-child(1),
+#element3:checked ~ #slider-arrows label:nth-child(2) {
+    display: block;
+    float: left;
+}
+#element1:checked ~ #slider-arrows label:nth-child(2):before,
+#element2:checked ~ #slider-arrows label:nth-child(3):before,
+#element3:checked ~ #slider-arrows label:nth-child(1):before {
+    content: url(../images/flechaderecha.png);
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: antialiased;
+}
+#element1:checked ~ #slider-arrows label:nth-child(3):before,
+#element2:checked ~ #slider-arrows label:nth-child(1):before,
+#element3:checked ~ #slider-arrows label:nth-child(2):before {
+    color: white  ;
+    content: url(../images/flechaizquierda.png);
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: antialiased;
+}
+#element1:checked ~ #slider-container #slider-box {
+    margin-left: 0;
+}
+#element2:checked ~ #slider-container #slider-box {
+    margin-left: -100%;
+}
+#element3:checked ~ #slider-container #slider-box {
+    margin-left: -200%;
+}
+#slider-arrows label {
+    color: transparent;
+    cursor: pointer;
+    display: none;
+
+    height: 20px;
+    width: 20px;
+    margin-top: -150px;
+}
+#slider-box {
+    -webkit-transition: all 0.75s ease;
+    -moz-transition: all 0.75s ease;
+    -ms-transition: all 0.75s ease;
+    -o-transition: all 0.75s ease;
+    transition: all 0.75s ease;
+}
+.clear{
+    clear: both;
+}
+#main{
+
+    width: 911px;
+    height: auto;
+    text-align: justify;
+
+    background-color: whitesmoke;
+    padding:20px 30px;
+    line-height: 38px;
+    border-style: groove; 
+
+
+    font-family: 'Architects Daughter', cursive;
+    letter-spacing: 2px;
+
+    margin: 150px auto 50px;
+}
+#maincontact{
+
+    width: 911px;
+    height: auto;
+
+    text-align: justify;
+
+    background-color: whitesmoke;    
+    padding: 20px;
+    line-height: 38px;
+    border-style: groove;
+    font-family: 'Architects Daughter', cursive;
+    letter-spacing: 2px;
+
+    padding-bottom: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin: 150px auto 50px;
+}
+#maingameinfo{
+
+    width: 875px;
+    height: auto;
+    text-align: justify;
+    background-color: whitesmoke;    
+    padding: 20px;    
+    border-style: groove;
+    font-family: 'Architects Daughter', cursive;
+    letter-spacing: 2px;
+
+    padding-bottom: 20px;
+    padding-right: 0px;
+    padding-left: 157px;
+    padding-top: 50px;
+    margin: 150px auto 50px;
+}
+#mainrules{
+
+    width: 911px;
+    height: auto;
+    text-align: justify;
+    background-color: whitesmoke;    
+    border-style: groove;
+    font-family: 'Architects Daughter', cursive;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin: 150px auto 50px;
+}
+#mainform{
+
+    width: 875px;
+    height: auto;
+    text-align: center;
+    background-color: whitesmoke;   
+    line-height: 38px;
+    border-style: groove;
+    font-family: 'Architects Daughter', cursive;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 10px;
+    margin: 150px auto 50px;
+}
+h2{
+    text-align: center;
+    font-size: 31pt;
+}
+#imgmain{
+    float: right;
+    width: 250px;
+    height: 372px;
+    border-radius: 50px;
+    border-style: solid;
+    margin-top: 67px;
+}
+#imgmain3{
+    margin-left: 639px;
+    width: 250px;
+    height: 372px;
+    margin-top: -135px;
+    border-radius: 50px;
+    border-style: solid;
+}
+h3{
+    font-size: 20pt;
+}
+#mainrules p{
+    margin-left: 25px;
+    font-size: 13pt;
+}
+#emailcontact{
+    
+}
+/*image main about*/
+#imgmain2{
+    float: right;
+    width: 256px;
+    height: 290px;
+    border-radius: 50px;
+    border-style: solid;
+    margin: 10px;
+}
+.tablegameinfo{
+    line-height: 20px;
+    border-collapse: collapse;
+    border: none;
+
+}
+.tablegameinfo,
+.tablegameinfo td,
+.tablegameinfo th,
+#gameinfo, 
+#gameinfo td, 
+#gameinfo th
+{
+    padding: 0px 30px;
+}
+
+th{
+    text-decoration: underline;    
+}
+.verde{
+    background-color: rgba(101, 239, 124, 0.4);  
+    width: 700px;
+}
+.verdeform{
+     background-color: rgba(101, 239, 124, 0.4);
+}
+.azul{
+    background-color: rgb(206, 240, 242); 
+    width: 700px;
+}
+.azulform{
+    background-color: rgb(206, 240, 242);
+}
+.verde p{
+    text-align: left;
+    margin: 0;
+    width: 650px;
+}
+.azul p{
+    text-align: left;
+    margin: 0;
+    width: 650px;
+}
+caption{
+    margin-bottom: 16px;
+    margin-top: 20px;
+    font-size: xx-large;
+}
+#captionocto{
+    font-size: xx-large;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+#gamelocaltions{
+    margin-top: 50px;
+    padding-bottom: 50px;
+    line-height: 20px;
+    border-collapse: collapse;
+    border: none;
+}
+#gamelocaltions td{
+    padding: 0px 15px;
+}
+#bmargin{
+    margin-left: 100px;
+    color: black;
+}
+#pgameinfo{
+
+    font-size: 13pt;
+    margin-right: 148px;
+}
+span{
+    font-weight: bolder;
+}
+.spcontact{
+    color: blue;
+    text-decoration: underline;
+}
+.h2gameinfo{
+    text-align: center;
+    font-size: 31pt;
+    margin-right: 150px;
+}
+#h3rules{
+    font-size: 20pt;
+    text-align: center;
+
+}
+/* registration form*/
+#mainform .forwardblock{
+    display: block;
+}
+.forwardblock input{
+    padding: 0 15px;
+}
+#mainform .midfieldblock{
+    display: block;
+
+}
+#mainform #gender{
+    margin-right: 302px;
+    margin-left: 40px;
+
+}
+
+
+#mainform .tablefirst{
+    float: left;
+
+}
+#mainform .tablesecond{
+    float: right;  
+}
+#mainform .tablefirst,.tablesecond{
+    font-size: 11pt;
+}
+
+.firstform{
+    display: block;
+}
+#mainform fieldset{
+    margin: 25px;
+    border-radius: 50px;
+    padding: 40px 0;
+}
+legend{
+    font-size: 15pt;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 16px;
+    border: solid;
+    border-width: 0.5px;
+    margin-left: 35px;
+}
+#mainform label{
+    width: 175px;
+    text-align: right;
+}
+#mainform input{
+    width: auto;
+}
+.closeaccordeon div .forwardblock{
+    height: auto;
+}
+.closeaccordeon input:checked ~ .forwardblock{
+ background-color: red;
+ display:none;
+} 
+.btn {
+    position: relative;
+    display: inline;
+    margin: 5em 5em 1em 4em;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 12pt;
+    background-color: rgba(101, 239, 124, 0.4); 
+    border-radius:30%;
+    padding: 5px 10px;
+}
+#btnsubmit{
+    display: block;
+}
+#signaturedate label{
+    margin-left: 20px;
+}
+.firstschool{
+    float: left;
+    margin-left: 139px;
+}
+.secondschool{
+    float: right;
+    margin-right: 165px;
+
+}
+.litlespan{
+    font-size: 60%;
+    color: gray;
+}
+.widthlabel{
+    float: left;
+    width: 50%;
+
+}
+.grade label{
+    margin-right: 318px;
+    margin-left: 3px;
+}
+fieldset input{
+    border-radius: 8px;
+    border: solid;
+    border-width: 2px;
+}
+    
+
+/*ACORDEON BUENO*/
+
+.half {
+    position: relative;
+    width: 693px;
+    letter-spacing: 1px;  
+
+}
+/* Acordeon styles */
+.wrapper .tab {
+    position: relative;
+    margin-bottom: -23px;
+    width: 100%;
+    color: black;
+    overflow: hidden;
+}
+.wrapper input {
+    position: relative;
+    opacity: 0;
+    z-index: -1;
+
+}
+.wrapper label {
+    position: relative;
+    display: block;
+    padding: 0 0 0 11px;   
+    cursor: pointer;
+    height: 48px;
+}
+.wrapper .blue label {
+    background: rgba(101, 239, 124, 0.4)  
+}
+.wrapper .green label{
+    background-color: rgb(206, 240, 242);
+}
+.wrapper .tab-content {
+    max-height: 0;
+    overflow: hidden;
+    background: #1abc9c;
+    -webkit-transition: max-height .35s;
+    -o-transition: max-height .35s;
+    transition: max-height .35s;
+}
+.wrapper .blue .tab-content {
+    background: #3498db;
+}
+.wrapper .tab-content p {
+    margin: 1em;
+}
+/* :checked */
+.wrapper input:checked ~ .tab-content {
+    max-height: 20em;
+    max-width: 44em;
+}
+/* Icon */
+.wrapper label::after {
+    position: relative;
+    left: 625px;
+    top: -20px;
+    display: block;
+    width: 3em;
+    height: 3em;
+    line-height: 3;
+    text-align: center;
+    -webkit-transition: all .35s;
+    -o-transition: all .35s;
+    transition: all .35s;
+}
+
+.wrapper input[type=checkbox] + label::after {
+    content: url("../images/iconmaps.png");
+}
+.wrapper .tab-content iframe{
+    width: 100%;
+}
+#facility{
+    margin-top: 100px;
+}
+.wrapper{
+    margin-top: 50px;
+}
+/*IMAGENES INPUT*/
+.cc-selector input{
+    margin:-150px;
+    padding:0;
+    -webkit-appearance: none;
+       -moz-appearance:none;
+            appearance:none;
+}
+.cc-selector-2 input{
+    
+    z-index:999;
+}
+.visa{
+    background-image:url(../images/imagegolkeaper.png);  
+   
+}
+.mastercard{
+    background-image:url(../images/imagedefense.png);
+}
+.midfield{
+    background-image:url(../images/imagemidfield.png);
+}
+.forward{
+    background-image:url(../images/imageforward.png);
+}
+.cc-selector-2 input:active +.drinkcard-cc,
+.cc-selector input:active +.drinkcard-cc{
+    opacity: .9;
+}
+.cc-selector-2 input:checked +.drinkcard-cc,
+.cc-selector input:checked +.drinkcard-cc{
+    -webkit-filter: none;
+       -moz-filter: none;
+            filter: none;
+}
+.drinkcard-cc{
+    cursor:pointer;
+    background-size:contain;
+    background-repeat:no-repeat;
+    display:inline-block;
+    width:400px;
+    height:200px;
+    -webkit-transition: all 100ms ease-in;
+       -moz-transition: all 100ms ease-in;
+            transition: all 100ms ease-in;
+    -webkit-filter: brightness(1.8) grayscale(1) opacity(.7);
+       -moz-filter: brightness(1.8) grayscale(1) opacity(.7);
+            filter: brightness(1.8) grayscale(1) opacity(.7);
+}
+.drinkcard-cc:hover{
+    -webkit-filter: brightness(1.2) grayscale(.5) opacity(.9);
+       -moz-filter: brightness(1.2) grayscale(.5) opacity(.9);
+            filter: brightness(1.2) grayscale(.5) opacity(.9);
+}
+#visa2{
+    float: left;    
+}
+#facility{
+    margin-top: 7em;
+}
+
+
